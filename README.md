@@ -7,3 +7,4 @@ download python and run (in the folder) pip install -r requirements.txt and run 
 # Previews
 <img src="https://uwu.lol/i/fg4lfi.png"/>
 
+ 
